@@ -19,4 +19,4 @@ trigger:
     include:
     - master
   event:
-  - pull
+  - push

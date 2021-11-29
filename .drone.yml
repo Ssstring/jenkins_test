@@ -11,3 +11,7 @@ steps:
   - ls -al
   - pwd
   - whoami
+trigger:
+  branch:
+    exclude:
+    - master

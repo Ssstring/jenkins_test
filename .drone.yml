@@ -13,5 +13,5 @@ steps:
   - whoami
 trigger:
   branch:
-    exclude:
+    include:
     - master

@@ -11,4 +11,3 @@ steps:
   - ll -a
   - pwd
   - whoami
-

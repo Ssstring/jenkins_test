@@ -14,9 +14,3 @@ steps:
   - ls -al
   - pwd
   - whoami
-trigger:
-  branch:
-    include:
-    - master
-  event:
-  - push

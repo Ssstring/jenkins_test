@@ -15,3 +15,5 @@ trigger:
   branch:
     include:
     - master
+    event:
+    - pull

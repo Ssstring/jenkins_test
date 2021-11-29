@@ -8,6 +8,9 @@ steps:
   commands:
   - echo hello
   - echo world
+  - echo ${DRONE_COMMIT_SHA}
+  - echo $DRONE_COMMIT_SHA
+  - echo $${DRONE_COMMIT_SHA}
   - ls -al
   - pwd
   - whoami

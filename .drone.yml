@@ -11,6 +11,8 @@ steps:
   - echo ${DRONE_REPO_BRANCH}
   - echo $DRONE_REPO_BRANCH
   - echo $${DRONE_REPO_BRANCH}
+  - echo uid
+  - echo {{ .repo.uid }}
   - ls -al
   - pwd
   - whoami
